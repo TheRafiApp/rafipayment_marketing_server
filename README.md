@@ -1,4 +1,4 @@
-# RafiPay Public Site Server
+# Rafi Payment Marketing Server
 
 Super simple express server to handle email inputs and send to the MailChimp API, saving to a mailing list.
 
