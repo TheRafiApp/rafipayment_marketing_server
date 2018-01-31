@@ -9,12 +9,6 @@ services:
       - FORCE_COLOR=1
     ports:
       - 3001:3001
-    volumes:
-      - rafipayment_certificate_data:/etc/letsencrypt
-
-volumes:
-  rafipayment_certificate_data:
-    external: true
 
 networks:
   default:

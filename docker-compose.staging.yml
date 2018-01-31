@@ -9,9 +9,7 @@ services:
       - FORCE_COLOR=1
     ports:
       - 3001:3001
-    deploy:
-      restart_policy:
-        condition: any
+    restart: always
 
 networks:
   default:

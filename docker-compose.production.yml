@@ -5,13 +5,11 @@ services:
     image: rafipayment_marketing_server
     container_name: marketing_server
     environment:
-      - NODE_ENV=staging
+      - NODE_ENV=production
       - FORCE_COLOR=1
     ports:
       - 3001:3001
-    deploy:
-      restart_policy:
-        condition: any
+    restart: always
 
 networks:
   default:
